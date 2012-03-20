@@ -7,7 +7,7 @@
             	<span class="icon-bar"></span>
           	</a>
           	<a class="brand" href="#"><?php echo $title;?></a>
-			<span class="pull-right" style="color:#fff;">
+			<span class="pull-right starts">
 			Starts at 
 			<?php 
 				$date = new DateTime($starts);
