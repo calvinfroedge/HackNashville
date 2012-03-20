@@ -18,7 +18,6 @@ class Eventish
 	private function __construct($config = array())
 	{
 		self::$config = $config;
-		//self::load('vendor/eventbrite/Eventbrite', self::$config);
 		self::load('vendor/gravatar-crepezzi/helpers/gravatar_helper');
 		self::load('vendor/eventbrite-shiflett/eventbrite');
 		$this->_eventbrite = new Eventbrite(
@@ -59,7 +58,7 @@ class Eventish
 		if(!is_file($path)) die("$path does not exist.");
 		ob_start();
 		if($vars) extract($vars);
-		include_once($path);
+		include($path);
 		return ob_get_clean();	
 	}
 }

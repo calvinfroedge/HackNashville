@@ -27,7 +27,7 @@ echo Eventish::load('views/template/head');
 		</div>
 		<div class="span4">
 			<?php //echo Eventish::load('views/content/bullets'); ?>
-			<h2>Register!</h2>
+			<h2>Come Join Us!</h2>
 			<p>
 				<?php echo Eventish::load('views/content/register_button');?>
 			</p>
