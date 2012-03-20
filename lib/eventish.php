@@ -10,18 +10,30 @@ class Eventish
 
 	public $event;
 
+	public $gravatar;
+
+	/**
+	 * The constructor
+	*/
 	private function __construct($config = array())
 	{
 		self::$config = $config;
-		self::load('vendor/eventbrite/Eventbrite', self::$config);
+		//self::load('vendor/eventbrite/Eventbrite', self::$config);
+		self::load('vendor/gravatar-crepezzi/helpers/gravatar_helper');
+		self::load('vendor/eventbrite-shiflett/eventbrite');
 		$this->_eventbrite = new Eventbrite(
 			array(
 				'app_key' => $config['app_key'],
 				'user_key' => $config['user_key']
 			)
 		);
-		$event_get = $this->_eventbrite->event_get( array('id' => $config['event_id']) );
-		$this->event = $event_get->event;
+
+		$attendees = $this->_eventbrite->eventListAttendees(array('id' => $config['event_id']));
+		$event_get = (object) $this->_eventbrite->eventGet( array('id' => $config['event_id']) );
+
+		$this->event = (object) $event_get->event;
+		$attendees =  (object) $this->_eventbrite->eventListAttendees(array('id' => $config['event_id']));
+		$this->event->attendees = $attendees->attendees;
 	}
 
 	/**

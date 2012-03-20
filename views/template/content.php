@@ -5,4 +5,3 @@
 			<a class="btn btn-large btn-primary" href="<?php echo $url;?>">Register Now!</a>
 		</p>
 	</div>
-	<?php echo $bullets;?>

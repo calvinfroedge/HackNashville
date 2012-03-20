@@ -1,10 +1,5 @@
 <div class="row">
 	<div class="span4">
-		<h2>Build Cool Stuff</h2>
-		<p>The Nashville Hackathon won't be about business, or social media, or anything else like that.  It will be about building things - and people who can build things will be the ones who attend.</p>
-	</div><!--/span-->
-
-	<div class="span4">
 		<h2>Eat and Drink Well</h2>
 		<p>For the duration of the event, you'll have good food and drink.  Asian food, plenty of fruits and veggies and fresh fruit smoothies and juices so that you can stay focused and productive.</p>
 	</div><!--/span-->

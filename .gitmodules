@@ -1,3 +1,9 @@
 [submodule "assets/bootstrap"]
 	path = assets/bootstrap
 	url = https://github.com/twitter/bootstrap.git
+[submodule "vendor/eventbrite-shiflett"]
+	path = vendor/eventbrite-shiflett
+	url = https://github.com/shiflett/eventbrite.git
+[submodule "vendor/gravatar-crepezzi"]
+	path = vendor/gravatar-crepezzi
+	url = https://github.com/seejohnrun/gravatar_helper.git

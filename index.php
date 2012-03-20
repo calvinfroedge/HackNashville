@@ -21,15 +21,32 @@ echo Eventish::load('views/template/head');
 				array(
 					'url' => $config['url'],
 					'description' => $e->event->description,
-					'bullets' => Eventish::load('views/content/bullets')
 				) 
 			);
 		?>
 		</div>
 		<div class="span4">
-			<h2>Who's Going?</h2>
+			<?php echo Eventish::load('views/content/bullets'); ?>
 		</span>
     </div><!--/row-->
+	<br clear="all" />
+	<div class="row-fluid">
+		<h2>Who's Going?</h2>
+		<ul class="attendees">
+		<?php foreach($e->event->attendees as $v)
+		{
+			?>
+			<li class="attendee">
+					<?php
+						echo '<img src="'.Gravatar_helper::from_email($v['attendee']['email']).'" /><br />';
+						echo $v['attendee']['first_name'] . ' ' . $v['attendee']['last_name'];
+					?>
+			</li>
+			<?php
+		}
+		?>
+		</ul>
+	</div>
 </div><!--/.fluid-container-->
 <?php echo Eventish::load('views/template/footer');?>
 <?php echo Eventish::load('views/template/js');?>
