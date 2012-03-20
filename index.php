@@ -27,6 +27,10 @@ echo Eventish::load('views/template/head');
 		</div>
 		<div class="span4">
 			<?php //echo Eventish::load('views/content/bullets'); ?>
+			<h2>Register!</h2>
+			<p>
+				<?php echo Eventish::load('views/content/register_button');?>
+			</p>
 			<h2>Who's Going?</h2>
 			<ul class="attendees">
 			<?php foreach($e->event->attendees as $v)
