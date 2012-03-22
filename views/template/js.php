@@ -16,4 +16,6 @@
     <script src="/assets/bootstrap/docs/assets/js/bootstrap-collapse.js"></script>
     <script src="/assets/bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
     <script src="/assets/bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
+	<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript" src="/assets/js/eventbrite.js"></script>
+	<script type="text/javascript" src="/assets/js/eventish.js"></script>

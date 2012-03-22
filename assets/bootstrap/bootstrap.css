@@ -3691,3 +3691,7 @@ a.thumbnail:hover {
   text-align: center;
   height: 100px;
 }
+#map_canvas {
+  width: 100%;
+  min-height: 250px;
+}

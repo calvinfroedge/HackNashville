@@ -7,8 +7,7 @@ echo Eventish::load('views/template/head');
 ?>
 <body>
 <?php echo Eventish::load('views/template/topbar', array(
-		'title' => $e->event->title,
-		'starts' => $e->event->start_date
+		'title' => $e->event->title
 	)
 );
 ?>
@@ -28,6 +27,14 @@ echo Eventish::load('views/template/head');
 		<div class="span4">
 			<?php //echo Eventish::load('views/content/bullets'); ?>
 			<h2>Come Join Us!</h2>
+			<?php
+				echo Eventish::load('views/template/venue',
+					array(
+						'venue' => $e->event->venue,
+						'starts' => $e->event->start_date
+					)
+				);
+			?>
 			<p>
 				<?php echo Eventish::load('views/content/register_button');?>
 			</p>

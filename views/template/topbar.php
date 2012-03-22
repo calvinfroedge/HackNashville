@@ -7,13 +7,6 @@
             	<span class="icon-bar"></span>
           	</a>
           	<a class="brand" href="#"><?php echo $title;?></a>
-			<span class="pull-right starts">
-			Starts at 
-			<?php 
-				$date = new DateTime($starts);
-				echo date_format($date, 'g:ia \o\n l jS F Y');
-			?>
-			</span>
         </div>
 	</div>
 </div>

@@ -1,5 +1,5 @@
 <hr>
 
 <footer>
-	<p>&copy; Calvin Froedge, 2012</p>
+	<p>&copy; HackNashville, 2012</p>
 </footer>

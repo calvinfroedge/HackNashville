@@ -29,7 +29,6 @@ class Eventish
 
 		$attendees = $this->_eventbrite->eventListAttendees(array('id' => $config['event_id']));
 		$event_get = (object) $this->_eventbrite->eventGet( array('id' => $config['event_id']) );
-
 		$this->event = (object) $event_get->event;
 		$attendees =  (object) $this->_eventbrite->eventListAttendees(array('id' => $config['event_id']));
 		$this->event->attendees = $attendees->attendees;
