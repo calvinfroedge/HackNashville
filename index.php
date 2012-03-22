@@ -2,7 +2,7 @@
 include('lib/eventish.php');
 $config = include('config.php');
 $e = Eventish::instance($config);
-echo Eventish::load('views/template/head');
+echo Eventish::load('views/template/head', array('title' => $e->event->title));
 
 ?>
 <body>
