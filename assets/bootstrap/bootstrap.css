@@ -3680,6 +3680,9 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+.hero-unit {
+  padding: 30px !important;
+}
 .attendees {
   position: relative;
   padding: 20px 0 0 0;
@@ -3696,4 +3699,10 @@ a.thumbnail:hover {
 #map_canvas {
   width: 100%;
   min-height: 250px;
+}
+#sponsors div {
+  text-align: center;
+}
+footer {
+  padding: 10px;
 }

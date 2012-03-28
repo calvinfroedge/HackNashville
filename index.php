@@ -15,17 +15,20 @@ echo Eventish::load('views/template/head', array('title' => $e->event->title));
 <div class="container-fluid">
 	<div class="row-fluid">
 		<div class="span8">
-		<?php 
-			echo Eventish::load('views/template/content', 
-				array(
-					'url' => $config['url'],
-					'description' => $e->event->description,
-				) 
-			);
-		?>
+			<h2>Hacking > Sleep.</h2>
+			<?php 
+				echo Eventish::load('views/template/content', 
+					array(
+						'url' => $config['url'],
+						'description' => $e->event->description,
+					) 
+				);
+			?>
+			<?php echo Eventish::load('views/content/organizers');?>
+			<hr />
+			<?php echo Eventish::load('views/content/supporters');?>
 		</div>
 		<div class="span4">
-			<?php //echo Eventish::load('views/content/bullets'); ?>
 			<h2>Come Join Us!</h2>
 			<?php
 				echo Eventish::load('views/template/venue',
