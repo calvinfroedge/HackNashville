@@ -7,6 +7,7 @@
             	<span class="icon-bar"></span>
           	</a>
           	<a class="brand" href="#"><?php echo $title;?></a>
+		<a class="brand" href="about.php">About Us</a>
         </div>
 	</div>
 </div>
