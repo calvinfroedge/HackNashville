@@ -3702,6 +3702,7 @@ a.thumbnail:hover {
 }
 #sponsors div {
   text-align: center;
+  width: 30% !important;
 }
 footer {
   padding: 10px;

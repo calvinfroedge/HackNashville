@@ -1,6 +1,6 @@
 
 			<div class="row-fluid">
-				<div class="span12">
+
 					<h2>Sponsors and Supporters</h2>
 					<div class="row-fluid" id="sponsors">
 						<div class="span4">
@@ -14,11 +14,13 @@
 						</div>
 						<br clear="all" />
 						<div class="span4">
-							<a href="http://www.dressagetrainingonline.com" target="_blank"><img src="http://www.dressagetrainingonline.com/images/logo.png" /></a>
+							<a href="http://peak10.com/" target="_blank"><img src="/assets/logos/peak10.jpg" /></a>
 						</div>
 						<div class="span4">
-							<a href="http://jpgproductions.com/" target="_blanK"><img src="http://www.jpgproductions.com/images/logo.png" /></a>
+							<a href="http://jpgproductions.com/" target="_blank"><img src="http://www.jpgproductions.com/images/logo.png" /></a>
 						</div>
-					</div>
+						<div class="span4">
+							<a href="http://www.dressagetrainingonline.com" target="_blank"><img src="http://www.dressagetrainingonline.com/images/logo.png" /></a>
+						</div>
 				</div>
 			</div>
