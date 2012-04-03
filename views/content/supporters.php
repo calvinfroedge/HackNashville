@@ -22,5 +22,14 @@
 						<div class="span4">
 							<a href="http://www.dressagetrainingonline.com" target="_blank"><img src="http://www.dressagetrainingonline.com/images/logo.png" /></a>
 						</div>
+
+						<br clear="all" />
+
+						<div class="span4">
+							<a href="http://pleasetip.me/" target="_blank"><img src="/assets/logos/please_tip_me.png" /></a>
+						</div>
+						<div class="span4">
+							<a href="http://jumpstartfoundry/" target="_blank"><img src="/assets/logos/jsf.jpg" style="margin-top:25px;" /></a>
+						</div>
 				</div>
 			</div>
