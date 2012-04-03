@@ -29,7 +29,10 @@
 							<a href="http://pleasetip.me/" target="_blank"><img src="/assets/logos/please_tip_me.png" /></a>
 						</div>
 						<div class="span4">
-							<a href="http://jumpstartfoundry/" target="_blank"><img src="/assets/logos/jsf.jpg" style="margin-top:25px;" /></a>
+							<a href="http://jumpstartfoundry.com/" target="_blank"><img src="/assets/logos/jsf.jpg" style="margin-top:25px;" /></a>
+						</div>
+						<div class="span4">
+							<a href="http://entrepreneurcenter.com/" target="_blank"><img src="/assets/logos/ec.jpg" style="margin-top:55px;" /></a>
 						</div>
 				</div>
 			</div>
