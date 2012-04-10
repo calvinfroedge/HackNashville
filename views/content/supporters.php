@@ -40,5 +40,9 @@
 						<div class="span4">
 							<a href="http://raventools.com/" target="_blank"><img src="/assets/logos/raven.png" style="margin-top:25px;" /></a>
 						</div>
+
+						<div class="span4">
+							<a href="http://myemma.com/" target="_blank"><img src="http://myemma.com/static/global/images/logo.png" style="margin-top:30px;" /></a>
+						</div>
 				</div>
 			</div>
