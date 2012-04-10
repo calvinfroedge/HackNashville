@@ -34,5 +34,11 @@
 						<div class="span4">
 							<a href="http://entrepreneurcenter.com/" target="_blank"><img src="/assets/logos/ec.jpg" style="margin-top:55px;" /></a>
 						</div>
+
+						<br clear="all" />
+
+						<div class="span4">
+							<a href="http://raventools.com/" target="_blank"><img src="/assets/logos/raven.png" style="margin-top:25px;" /></a>
+						</div>
 				</div>
 			</div>
