@@ -44,5 +44,9 @@
 						<div class="span4">
 							<a href="http://myemma.com/" target="_blank"><img src="http://myemma.com/static/global/images/logo.png" style="margin-top:30px;" /></a>
 						</div>
+
+						<div class="span4">
+							<a href="http://cohesionarts.com/" target="_blank"><img src="/assets/logos/CohesionArts.jpg" style="" /></a>
+						</div>
 				</div>
 			</div>
