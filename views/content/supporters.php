@@ -48,5 +48,11 @@
 						<div class="span4">
 							<a href="http://cohesionarts.com/" target="_blank"><img src="/assets/logos/CohesionArts.jpg" style="height:150px !important" /></a>
 						</div>
+
+						<br clear="all" />
+
+						<div class="span4">
+							<a href="http://ceedcreative.com/" target="_blank"><img src="/assets/logos/ceed.jpg" style="height:150px; !important" /></a>
+						</div>
 				</div>
 			</div>
