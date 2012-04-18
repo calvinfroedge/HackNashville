@@ -54,5 +54,10 @@
 						<div class="span4">
 							<a href="http://ceedcreative.com/" target="_blank"><img src="/assets/logos/ceed.jpg" style="height:150px; !important" /></a>
 						</div>
+
+
+						<div class="span4">
+							<a href="http://tnvcfund.com/" target="_blank"><img src="http://www.tncvfund.com/images/tncvlogo.gif" /></a>
+						</div>
 				</div>
 			</div>
