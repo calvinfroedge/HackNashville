@@ -57,7 +57,7 @@
 
 
 						<div class="span4">
-							<a href="http://tnvcfund.com/" style="margin-top:15px;" target="_blank"><img  style="margin-top:15px;" src="http://www.tncvfund.com/images/tncvlogo.gif" /></a>
+							<a href="http://tncvfund.com/" style="margin-top:15px;" target="_blank"><img  style="margin-top:15px;" src="http://www.tncvfund.com/images/tncvlogo.gif" /></a>
 						</div>
 	
 
