@@ -57,12 +57,19 @@
 
 
 						<div class="span4">
-							<a href="http://tnvcfund.com/" target="_blank"><img src="http://www.tncvfund.com/images/tncvlogo.gif" /></a>
+							<a href="http://tnvcfund.com/" style="margin-top:15px;" target="_blank"><img  style="margin-top:15px;" src="http://www.tncvfund.com/images/tncvlogo.gif" /></a>
 						</div>
 	
 
 						<div class="span4">
-							<a href="http://griffintechnology.com/" target="_blank"><img src="/assets/logos/griffin_logo.jpg" /></a>
+							<a href="http://griffintechnology.com/"  target="_blank"><img src="/assets/logos/griffin_logo.jpg" /></a>
+						</div>
+
+						<br clear="all" />
+
+
+						<div class="span4">
+							<a href="http://www.streamweaver.com/" target="_blank"><img style="margin-top:35px;" src="/assets/logos/streamweaver.png" /></a>
 						</div>
 				</div>
 			</div>
